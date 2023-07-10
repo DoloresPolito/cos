@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.7b3bf44d.js",
+    "main.css": "/static/css/main.aabf15ef.css",
+    "main.js": "/static/js/main.57061ca0.js",
     "static/js/787.1065c4de.chunk.js": "/static/js/787.1065c4de.chunk.js",
     "static/media/fondo_producto.png": "/static/media/fondo_producto.3cc67f59f47751e23e05.png",
     "static/media/desktop1.png": "/static/media/desktop1.ca159c47b8a3b256ad23.png",
+    "static/media/solofondo.png": "/static/media/solofondo.bfc99bae038fec7d56e6.png",
     "static/media/ultimamobile.png": "/static/media/ultimamobile.eee165a7d2392acc1cbc.png",
     "static/media/contacto70.png": "/static/media/contacto70.cf5c522bca64ee002a0b.png",
     "static/media/offfondosolobaja.png": "/static/media/offfondosolobaja.01061564cc0081059b0b.png",
@@ -67,12 +68,12 @@
     "static/media/Angelica Zapata Merlot.png": "/static/media/Angelica Zapata Merlot.4b0362d9bcc88a74fb00.png",
     "static/media/Angelica Zapata Cabernet Sauvignon.png": "/static/media/Angelica Zapata Cabernet Sauvignon.b0305f3143bb27ffcb53.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.7b3bf44d.js.map": "/static/js/main.7b3bf44d.js.map",
+    "main.aabf15ef.css.map": "/static/css/main.aabf15ef.css.map",
+    "main.57061ca0.js.map": "/static/js/main.57061ca0.js.map",
     "787.1065c4de.chunk.js.map": "/static/js/787.1065c4de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.7b3bf44d.js"
+    "static/css/main.aabf15ef.css",
+    "static/js/main.57061ca0.js"
   ]
 }
