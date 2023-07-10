@@ -3,12 +3,14 @@ import styled from "styled-components";
 import Contact from "./Contact"
 import Off from "./Off"
 import Mix from "./Mix";
+import Products from "./Products";
 
 const Home = () => {
   return (
     <>
     <Off/>
     <Mix/>
+    <Products/>
       <Contact />
       {/* <a   href="https://api.whatsapp.com/send/?phone=543446584076" target="_blank" rel="noreferrer"
 >
