@@ -1,16 +1,28 @@
 {
   "files": {
     "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.ed1eaaa3.js",
+    "main.js": "/static/js/main.6396ef18.js",
     "static/js/787.1065c4de.chunk.js": "/static/js/787.1065c4de.chunk.js",
     "static/media/contacto70.png": "/static/media/contacto70.cf5c522bca64ee002a0b.png",
+    "static/media/offfondosolobaja.png": "/static/media/offfondosolobaja.01061564cc0081059b0b.png",
+    "static/media/fondomixbaja.png": "/static/media/fondomixbaja.a38f1709b93a6b9c4545.png",
+    "static/media/Gran Enemigo Gualtallary.png": "/static/media/Gran Enemigo Gualtallary.c8bbbe7445a34469b0e0.png",
+    "static/media/Saint Felicien Chardonnay.png": "/static/media/Saint Felicien Chardonnay.01ca78010254b655c30a.png",
+    "static/media/Mancha 3.png": "/static/media/Mancha 3.d89de5718630d06232ef.png",
+    "static/media/Dv Catena Chardonnay.png": "/static/media/Dv Catena Chardonnay.735ba17815983f1fb831.png",
+    "static/media/Rutini Coleccion Malbec.png": "/static/media/Rutini Coleccion Malbec.6caba074262e8660a08d.png",
+    "static/media/Bressia Lagrima Canela.png": "/static/media/Bressia Lagrima Canela.c8c136a41d57e7b978b7.png",
+    "static/media/Cocodrilo.png": "/static/media/Cocodrilo.4111eecffe99e31de833.png",
+    "static/media/Dv Catena Malbec Malbec.png": "/static/media/Dv Catena Malbec Malbec.504e2eaec6f15759ac64.png",
+    "static/media/Dv Catena Malbec.png": "/static/media/Dv Catena Malbec.525c501356e89c096756.png",
+    "static/media/Felino.png": "/static/media/Felino.ca83114acebf4d4aa813.png",
     "index.html": "/index.html",
     "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.ed1eaaa3.js.map": "/static/js/main.ed1eaaa3.js.map",
+    "main.6396ef18.js.map": "/static/js/main.6396ef18.js.map",
     "787.1065c4de.chunk.js.map": "/static/js/787.1065c4de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.ed1eaaa3.js"
+    "static/js/main.6396ef18.js"
   ]
 }
