@@ -8,7 +8,7 @@ import { ParallaxProvider } from "react-scroll-parallax";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/cos">
   <ParallaxProvider>  
     <App />
     </ParallaxProvider>  
