@@ -2,6 +2,7 @@ import "../App.css";
 import styled from "styled-components";
 import Contact from "./Contact"
 
+
 const Home = () => {
   return (
     <>
@@ -31,7 +32,7 @@ const HomeSection = styled.div`
 
 const InstagramButton = styled.div`
   position: fixed;
-  bottom: 30px;
+  bottom: 31px;
   left: 30px;
   height: 50px;
   width: 50px;
