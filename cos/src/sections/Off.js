@@ -15,6 +15,7 @@ const Off = () => {
   const [width, setWidth] = useState(window.innerWidth)
   useEffect(() => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))
+    console.log("width", width)
   }, [])
 
   const medium = 800
@@ -69,7 +70,7 @@ const Off = () => {
     <>
 
 
-      <BenefitsContainer ref={ref}>
+      <BenefitsContainer ref={ref} id="off">
         <Carousel itemsToShow={width > medium ? 4 : width > small ? 3 : width > small2 ? 2 : 1} enableTilt={true} pagination={false}>
           <Item>
             <Box>

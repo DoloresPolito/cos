@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  z-index: 100;
+
+ 
+}

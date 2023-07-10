@@ -4,9 +4,10 @@ import styled from "styled-components";
 import Slider from "react-slick";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
-// import Navbar from "./Navbar";
+import Navbar from "./Navbar";
 import promooffmobile from "../assets/promos/ultimamobile.png";
 import off30 from "../assets/promos/desktop1.png";
+import solofondo from "../assets/fondos/solofondo.png"
 
 
 function Carrousel() {
@@ -40,11 +41,11 @@ function Carrousel() {
 
   return (
     <CarrouselContainer>
-      {/* {showNavBar && (
+      {showNavBar && (
         <nav className="navbar">
           <Navbar />
         </nav>
-      )} */}
+      )}
 
       {width >= medium ? (
         <>
@@ -67,7 +68,7 @@ function Carrousel() {
             <SlideContainer>
               <img
                 style={{
-                  backgroundImage: `url(${off30})`,
+                  backgroundImage: `url(${solofondo})`,
                   height: "100%",
                   width: "100%",
                   backgroundSize: "cover",
@@ -80,36 +81,39 @@ function Carrousel() {
             </SlideContainer>
           </Slider>
         </>
-      ) : (
-        <>
-          {width >= small ? (
-            <>
-              <Slider {...settings} afterChange={setCurrentIndex}>
-                {/* <SlideContainer>
-                  <img
-                    style={{
-                      backgroundImage: `url(${promomixtablet})`,
-                      height: "100%",
-                      width: "100%",
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                    }}
-                  />
-                </SlideContainer>
-                <SlideContainer>
-                  <img
-                    style={{
-                      backgroundImage: `url(${promomixtablet})`,
-                      height: "100%",
-                      width: "100%",
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                    }}
-                  />
-                </SlideContainer> */}
-              </Slider>
-            </>
-          ) : (
+      ) :
+      //  : (
+      //   <>
+      //     {width >= small ? (
+      //       <>
+      //         <Slider {...settings} afterChange={setCurrentIndex}>
+      //           {/* <SlideContainer>
+      //             <img
+      //               style={{
+      //                 backgroundImage: `url(${promomixtablet})`,
+      //                 height: "100%",
+      //                 width: "100%",
+      //                 backgroundSize: "cover",
+      //                 backgroundPosition: "center",
+      //               }}
+      //             />
+      //           </SlideContainer>
+      //           <SlideContainer>
+      //             <img
+      //               style={{
+      //                 backgroundImage: `url(${promomixtablet})`,
+      //                 height: "100%",
+      //                 width: "100%",
+      //                 backgroundSize: "cover",
+      //                 backgroundPosition: "center",
+      //               }}
+      //             />
+      //           </SlideContainer> */}
+      //         </Slider>
+      //       </>
+      //     ) : 
+          
+          (
             <>
               <Slider {...settings} afterChange={setCurrentIndex}>
                 {/* <SlideContainer>
@@ -126,7 +130,7 @@ function Carrousel() {
                 <SlideContainer>
                   <img
                     style={{
-                      backgroundImage: `url(${promooffmobile})`,
+                      backgroundImage: `url(${solofondo})`,
                       height: "100%",
                       width: "100%",
                       backgroundSize: "cover",
@@ -137,8 +141,8 @@ function Carrousel() {
               </Slider>
             </>
           )}
-        </>
-      )}
+      
+      
     </CarrouselContainer>
   );
 }
