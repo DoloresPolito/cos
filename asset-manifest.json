@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.73eba7b0.js",
+    "main.js": "/static/js/main.7b3bf44d.js",
     "static/js/787.1065c4de.chunk.js": "/static/js/787.1065c4de.chunk.js",
     "static/media/fondo_producto.png": "/static/media/fondo_producto.3cc67f59f47751e23e05.png",
+    "static/media/desktop1.png": "/static/media/desktop1.ca159c47b8a3b256ad23.png",
+    "static/media/ultimamobile.png": "/static/media/ultimamobile.eee165a7d2392acc1cbc.png",
     "static/media/contacto70.png": "/static/media/contacto70.cf5c522bca64ee002a0b.png",
     "static/media/offfondosolobaja.png": "/static/media/offfondosolobaja.01061564cc0081059b0b.png",
     "static/media/fondomixbaja.png": "/static/media/fondomixbaja.a38f1709b93a6b9c4545.png",
@@ -66,11 +68,11 @@
     "static/media/Angelica Zapata Cabernet Sauvignon.png": "/static/media/Angelica Zapata Cabernet Sauvignon.b0305f3143bb27ffcb53.png",
     "index.html": "/index.html",
     "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.73eba7b0.js.map": "/static/js/main.73eba7b0.js.map",
+    "main.7b3bf44d.js.map": "/static/js/main.7b3bf44d.js.map",
     "787.1065c4de.chunk.js.map": "/static/js/787.1065c4de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.73eba7b0.js"
+    "static/js/main.7b3bf44d.js"
   ]
 }
