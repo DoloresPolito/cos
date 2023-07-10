@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import styled from "styled-components";
-import mancha1 from "../assets/Mancha 3.png";
-import mancha2 from "../assets/Manch 4.png";
+import mancha1 from "../assets/others/Mancha 3.png";
+import mancha2 from "../assets/others/Manch 4.png";
 import vino1 from "../assets/grilla/Bressia Lagrima Canela.png";
 import vino2 from "../assets/grilla/Gran Enemigo Gualtallary.png";
 import vino3 from "../assets/grilla/Dv Catena Chardonnay.png";
@@ -10,7 +10,7 @@ import vino5 from "../assets/grilla/Saint Felicien Chardonnay.png";
 import vino6 from "../assets/grilla/Felino.png";
 import vino7 from "../assets/grilla/Cocodrilo.png";
 import vino8 from "../assets/grilla/Dv Catena Malbec Malbec.png";
-// import arrow from "../assets/icons/arrow-down.png"
+import arrow from "../assets/icons/arrow-down.png"
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import fondomix from "../assets/fondos/fondomixbaja.png";
@@ -91,7 +91,7 @@ const Mix = () => {
             tiene para ofrecer!
           </motion.h3>
             <Parallax speed={-5}>
-          {/* <motion.img animate={animation2} src={arrow} /> */}
+          <motion.img animate={animation2} src={arrow} />
                  </Parallax>
           </Content>
 
