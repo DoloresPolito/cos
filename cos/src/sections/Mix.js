@@ -13,9 +13,10 @@ import vino8 from "../assets/grilla/Dv Catena Malbec Malbec.png";
 import arrow from "../assets/icons/arrow-down.png"
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import fondomix from "../assets/fondos/fondomixbaja.png";
+// import fondomix from "../assets/fondos/fondomixbaja.png";
 import { Parallax } from "react-scroll-parallax";
 
+import fondomix from "../assets/fondos/corchos3.png";
 const Mix = () => {
 
 
@@ -71,16 +72,19 @@ const Mix = () => {
        <Parallax speed={8}>
 
 
-          <Img1 src={mancha1} alt="macha"/>
+          {/* <Img1 src={mancha1} alt="macha"/> */}
 
           </Parallax>
+          <section>
           <motion.h2 animate={animation2}>PROMO Mix</motion.h2>
+          </section>
+     
 
-          <motion.h2 animate={animation2}>
+          <motion.h4 animate={animation2}>
             ¡Armá una o más cajas con tus vinos favoritos!
             {/* Explora una exquisita variedad de vinos y elige tus 6 favoritos
             para armar una caja única y llena de sabor! */}
-          </motion.h2>
+          </motion.h4>
           <Content>
           <motion.h3
           
@@ -90,13 +94,13 @@ const Mix = () => {
             con ganas de más! ¡Disfrutá y explorá los mejores vinos que el mundo
             tiene para ofrecer!
           </motion.h3>
-            <Parallax speed={-5}>
+            {/* <Parallax speed={-5}>
           <motion.img animate={animation2} src={arrow} />
-                 </Parallax>
+                 </Parallax> */}
           </Content>
 
           <Parallax speed={8}>
-          <Img2 src={mancha2} alt="macha"/>
+          {/* <Img2 src={mancha2} alt="macha"/> */}
           </Parallax>
         </Top>
         <Bottom>
@@ -226,6 +230,12 @@ const Top = styled.div`
   padding: 40px 0px;
   position:relative;
 
+  /* section{
+    border:1px solid white;
+    padding: 0px 20px;
+
+  } */
+
   @media only screen and (max-width: 500px) {
     padding: 40px 20px;
   }
@@ -249,9 +259,31 @@ const Top = styled.div`
     color: white;
     letter-spacing: 2px;
 
+    font-size: 40px;
+    cursor: pointer;
+    max-width: 700px;
+
+
+    @media only screen and (max-width: 800px) {
+      font-size: 25px;
+
+  }
+
+  @media only screen and (max-width: 670px) {
+      font-size: 20px;
+
+  }
+  }
+
+  h4 {
+    font-family: "Bebas Neue", cursive;
+    color: white;
+    letter-spacing: 2px;
+
     font-size: 30px;
     cursor: pointer;
     max-width: 700px;
+    margin-top: -18px;
 
 
     @media only screen and (max-width: 800px) {
@@ -468,7 +500,8 @@ h3 {
     max-width: 500px;
     font-weight: 400;
     padding-bottom: 50px;
-margin-right: 50px;
+/* margin-right: 50px; */
+text-align: center;
 
     @media only screen and (max-width: 800px) {
       font-size: 13px;
