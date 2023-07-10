@@ -1,12 +1,14 @@
 import "../App.css";
 import styled from "styled-components";
 import Contact from "./Contact"
-
+import Off from "./Off"
+import Mix from "./Mix";
 
 const Home = () => {
   return (
     <>
-    
+    <Off/>
+    <Mix/>
       <Contact />
       {/* <a   href="https://api.whatsapp.com/send/?phone=543446584076" target="_blank" rel="noreferrer"
 >
@@ -19,6 +21,7 @@ const Home = () => {
           <img src={instagram} alt="instagram"/>
         </InstagramButton>{" "}
       </a> */}
+      
     </>
   );
 };
