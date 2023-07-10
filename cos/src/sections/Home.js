@@ -4,15 +4,21 @@ import Contact from "./Contact"
 import Off from "./Off"
 import Mix from "./Mix";
 import Products from "./Products";
+import Carrousel from "../components/FalseCarrousel";
+import instagram from "../assets/icons/instagram-white.png";
+import whatsapp from "../assets/icons/whatsapp-white.png";
 
 const Home = () => {
   return (
     <>
+          <HomeSection>
+        <Carrousel />
+      </HomeSection>
     <Off/>
     <Mix/>
     <Products/>
       <Contact />
-      {/* <a   href="https://api.whatsapp.com/send/?phone=543446584076" target="_blank" rel="noreferrer"
+      <a   href="https://api.whatsapp.com/send/?phone=543446584076" target="_blank" rel="noreferrer"
 >
       <WhatsappButton>
         <img src={whatsapp} alt="whatsapp"/>
@@ -22,7 +28,7 @@ const Home = () => {
         <InstagramButton>
           <img src={instagram} alt="instagram"/>
         </InstagramButton>{" "}
-      </a> */}
+      </a>
       
     </>
   );
