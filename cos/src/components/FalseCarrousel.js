@@ -5,10 +5,11 @@ import Slider from "react-slick";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 import Navbar from "./Navbar";
-import promooffmobile from "../assets/promos/ultimamobile.png";
-import off30 from "../assets/promos/desktop1.png";
+// import promooffmobile from "../assets/promos/ultimamobile.png";
+// import off30 from "../assets/promos/desktop1.png";
 import solofondo from "../assets/fondos/solofondo.png"
-
+import textdesk from "../assets/promos/Frame 39.png";
+import { motion, useAnimation } from "framer-motion";
 
 function Carrousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -73,11 +74,15 @@ function Carrousel() {
                   width: "100%",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
+            
                 }}
               />
               {showButton && (
          <></>
               )}
+              <Text>
+              <img src={textdesk}/>
+              </Text>
             </SlideContainer>
           </Slider>
         </>
@@ -160,8 +165,21 @@ const CarrouselContainer = styled.div`
 const SlideContainer = styled.div`
   height: 100vh;
   z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
+const Text = styled.div`
+/* position:absolute;
+top:60px;
+left:0; */
+
+display: flex;
+justify-content: center;
+margin-top: -660px;
+
+`
 
 
 export default Carrousel;

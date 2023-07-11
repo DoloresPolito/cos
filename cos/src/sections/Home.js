@@ -4,15 +4,16 @@ import Contact from "./Contact"
 import Off from "./Off"
 import Mix from "./Mix";
 import Products from "./Products";
-import Carrousel from "../components/FalseCarrousel";
+// import Carrousel from "../components/FalseCarrousel";
 import instagram from "../assets/icons/instagram-white.png";
 import whatsapp from "../assets/icons/whatsapp-white.png";
+import Hero from "../components/Hero"
 
 const Home = () => {
   return (
     <>
           <HomeSection>
-        <Carrousel />
+        <Hero />
       </HomeSection>
     <Off/>
     <Mix/>

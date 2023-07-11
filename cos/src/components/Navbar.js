@@ -118,9 +118,11 @@ const NavbarSection = styled.section`
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: auto;
+
   justify-content: space-between; /* Cambiado de justify-items a justifyContent */
   position: relative;
+  margin: 0 auto;
+
 
   .hamburger-react {
     z-index: 3;
