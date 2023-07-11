@@ -84,8 +84,10 @@ const CoverSection = styled.div`
   align-items: center;
   color: #5f5f67;
   /* height: auto; */
-  background: url(${solofondo}) no-repeat center center fixed;
+  /* background: url(${solofondo}) no-repeat center center fixed; */
+  background: url(${solofondo});
   background-size: cover;
+  background-position: center;
   position: relative;
 
 
