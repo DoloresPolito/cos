@@ -97,7 +97,7 @@ const TabsBox = styled.div`
   }
 
   button {
-    border: 1px solid white;
+    border:none;
     border-radius: 30px;
     /* padding:0px 30px; */
     height: 40px;
