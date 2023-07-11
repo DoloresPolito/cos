@@ -80,9 +80,11 @@ const TabsBox = styled.div`
     display: flex;
     align-items: center;
 
+
     :hover{
       background-color: #6a6f58;
       color:white;
+      border: 0px solid #6a6f58;
     }
     /* &:hover,
     &:active,
