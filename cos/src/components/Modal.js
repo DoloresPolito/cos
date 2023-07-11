@@ -204,8 +204,13 @@ const Top = styled.div`
   margin: 0 auto;
   margin-top: 40px;
 
+  @media only screen and (max-width: 820px) {
+    /* margin-top: 20px; */
+
+  }
+
   @media only screen and (max-width: 500px) {
-    justify-content: space-between;
+    justify-content: center;
 
   }
 `;
@@ -224,6 +229,11 @@ const TitleContainer = styled.div`
     margin-right: 80px;
   }
 
+  @media only screen and (max-width: 500px) {
+    margin-left: 60px;
+
+  }
+
   h2 {
     color: #6a6f58;
     font-size: 25px;
@@ -234,7 +244,7 @@ const TitleContainer = styled.div`
     margin-top: 20px;
 
     @media only screen and (max-width: 820px) {
-      font-size: 28px;
+      font-size: 20px;
 
     }
 
@@ -267,9 +277,18 @@ const TitleContainer = styled.div`
     margin-top: 60px;
 
     @media only screen and (max-width: 820px) {
-      border-top: 0.5px solid #6a6f58;
+      /* border-top: 0.5px solid #6a6f58;
       margin-top: 62px;
-      width: 100px;
+      width: 100px; */
+
+      display:none
+    }
+
+    @media only screen and (max-width: 500px) {
+      /* border-top: 0.5px solid #6a6f58;
+      margin-top: 42px;
+      width: 70px; */
+      display:none
     }
   }
 `;
@@ -337,7 +356,8 @@ const Description = styled.div`
 
   @media only screen and (max-width: 500px) {
     max-width: 280px;
-    padding-left: 50px;
+
+
   }
 
   /* p {
@@ -380,11 +400,14 @@ const Description = styled.div`
       max-width: 50px;
     }
 
-    @media only screen and (max-width: 820px) {
-      margin-top: 15px;
+
+    @media only screen and (max-width: 500px) {
+  
       font-size: 17px;
-      max-width: 50px;
+    
     }
+
+ 
   }
 `;
 
@@ -411,7 +434,7 @@ const Picture = styled.div`
     width: 300px;
     position: relative; */
     display: flex;
-    margin-top: 20px;
+    margin-top: 0px;
 
     height: 280px;
     width: 150px;
@@ -421,6 +444,8 @@ const Picture = styled.div`
     height: 300px;
     width: 100px;
     position: relative;
+    margin-top: 20px;
+
   }
 `;
 
@@ -437,14 +462,16 @@ const Text = styled.p`
     letter-spacing: 1px !important;
     line-height: 20px !important;
     max-width: 80%;
-    margin-top: 50px !important;
+    margin-top: 30px !important;
     margin: 0 auto;
+
+    font-size: 12px !important;
   }
 
   @media only screen and (max-width: 500px) {
     letter-spacing: 0.5px !important;
     line-height: 15px !important;
-    margin-top: 15px !important;
+    margin-top: 30px !important;
     font-size: 10px !important;
     max-width: 80%;
 
