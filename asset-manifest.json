@@ -1,15 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.1db19c2c.css",
-    "main.js": "/static/js/main.79368e82.js",
+    "main.js": "/static/js/main.9f858f01.js",
     "static/js/787.1065c4de.chunk.js": "/static/js/787.1065c4de.chunk.js",
     "static/media/fondo_producto.png": "/static/media/fondo_producto.3cc67f59f47751e23e05.png",
-    "static/media/desktop1.png": "/static/media/desktop1.ca159c47b8a3b256ad23.png",
     "static/media/solofondo.png": "/static/media/solofondo.bfc99bae038fec7d56e6.png",
-    "static/media/ultimamobile.png": "/static/media/ultimamobile.eee165a7d2392acc1cbc.png",
     "static/media/corchos3.png": "/static/media/corchos3.015396684111f8ca9f04.png",
     "static/media/contacto70.png": "/static/media/contacto70.cf5c522bca64ee002a0b.png",
     "static/media/offfondosolobaja.png": "/static/media/offfondosolobaja.01061564cc0081059b0b.png",
+    "static/media/Frame 39.png": "/static/media/Frame 39.e86d1e8d228a299e299e.png",
     "static/media/Saint Felicien Malbec.png": "/static/media/Saint Felicien Malbec.acff9d983a4c5c47de12.png",
     "static/media/Malbec Argentino.png": "/static/media/Malbec Argentino.1be425e3cc547b5af773.png",
     "static/media/Nicola Catena Bonarda (vino de parcela).png": "/static/media/Nicola Catena Bonarda (vino de parcela).347a25dfb547eebbbdc6.png",
@@ -69,11 +68,11 @@
     "static/media/Angelica Zapata Cabernet Sauvignon.png": "/static/media/Angelica Zapata Cabernet Sauvignon.b0305f3143bb27ffcb53.png",
     "index.html": "/index.html",
     "main.1db19c2c.css.map": "/static/css/main.1db19c2c.css.map",
-    "main.79368e82.js.map": "/static/js/main.79368e82.js.map",
+    "main.9f858f01.js.map": "/static/js/main.9f858f01.js.map",
     "787.1065c4de.chunk.js.map": "/static/js/787.1065c4de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1db19c2c.css",
-    "static/js/main.79368e82.js"
+    "static/js/main.9f858f01.js"
   ]
 }
