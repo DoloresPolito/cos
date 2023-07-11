@@ -90,7 +90,7 @@ const CoverSection = styled.div`
 
 
   @media only screen and (max-width: 450px) {
-    height: 500px !important;
+    height: 680px !important;
   }
 `;
 
