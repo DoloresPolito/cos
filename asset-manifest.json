@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.1db19c2c.css",
-    "main.js": "/static/js/main.6429a72c.js",
+    "main.js": "/static/js/main.fc211b9b.js",
     "static/js/787.1065c4de.chunk.js": "/static/js/787.1065c4de.chunk.js",
     "static/media/fondo_producto.png": "/static/media/fondo_producto.3cc67f59f47751e23e05.png",
-    "static/media/solofondo.png": "/static/media/solofondo.bfc99bae038fec7d56e6.png",
     "static/media/corchos3.png": "/static/media/corchos3.015396684111f8ca9f04.png",
     "static/media/contacto70.png": "/static/media/contacto70.cf5c522bca64ee002a0b.png",
+    "static/media/solofondobaja.png": "/static/media/solofondobaja.6cea2db32094f72c2a77.png",
     "static/media/offfondosolobaja.png": "/static/media/offfondosolobaja.01061564cc0081059b0b.png",
     "static/media/Frame 39.png": "/static/media/Frame 39.e86d1e8d228a299e299e.png",
     "static/media/Saint Felicien Malbec.png": "/static/media/Saint Felicien Malbec.acff9d983a4c5c47de12.png",
@@ -68,11 +68,11 @@
     "static/media/Angelica Zapata Cabernet Sauvignon.png": "/static/media/Angelica Zapata Cabernet Sauvignon.b0305f3143bb27ffcb53.png",
     "index.html": "/index.html",
     "main.1db19c2c.css.map": "/static/css/main.1db19c2c.css.map",
-    "main.6429a72c.js.map": "/static/js/main.6429a72c.js.map",
+    "main.fc211b9b.js.map": "/static/js/main.fc211b9b.js.map",
     "787.1065c4de.chunk.js.map": "/static/js/787.1065c4de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1db19c2c.css",
-    "static/js/main.6429a72c.js"
+    "static/js/main.fc211b9b.js"
   ]
 }
