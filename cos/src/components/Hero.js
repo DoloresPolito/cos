@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Navbar from "./Navbar";
 // import promooffmobile from "../assets/promos/ultimamobile.png";
 // import off30 from "../assets/promos/desktop1.png";
-import solofondo from "../assets/fondos/solofondo.png"
+import solofondo from "../assets/fondos/solofondobaja.png"
 import textdesk from "../assets/promos/Frame 39.png";
 import { motion, useAnimation } from "framer-motion";
 import { Parallax } from "react-scroll-parallax";
