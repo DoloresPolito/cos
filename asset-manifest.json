@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1db19c2c.css",
-    "main.js": "/static/js/main.efe8a7b9.js",
+    "main.js": "/static/js/main.8ee5b55f.js",
     "static/js/787.1065c4de.chunk.js": "/static/js/787.1065c4de.chunk.js",
     "static/media/fondo_producto.png": "/static/media/fondo_producto.3cc67f59f47751e23e05.png",
     "static/media/corchos3.png": "/static/media/corchos3.015396684111f8ca9f04.png",
@@ -68,11 +68,11 @@
     "static/media/Angelica Zapata Cabernet Sauvignon.png": "/static/media/Angelica Zapata Cabernet Sauvignon.b0305f3143bb27ffcb53.png",
     "index.html": "/index.html",
     "main.1db19c2c.css.map": "/static/css/main.1db19c2c.css.map",
-    "main.efe8a7b9.js.map": "/static/js/main.efe8a7b9.js.map",
+    "main.8ee5b55f.js.map": "/static/js/main.8ee5b55f.js.map",
     "787.1065c4de.chunk.js.map": "/static/js/787.1065c4de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1db19c2c.css",
-    "static/js/main.efe8a7b9.js"
+    "static/js/main.8ee5b55f.js"
   ]
 }
