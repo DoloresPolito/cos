@@ -1,35 +1,44 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-// import emailjs from "emailjs-com";
+import emailjs from "emailjs-com";
 import fondocontacto from "../assets/fondos/contacto70.png";
 import { Parallax } from "react-scroll-parallax";
 
 const Contact = () => {
-  //   const frmContact = { userName: ``, userEmail: ``, message: `` };
-  //   const [contact, setContact] = useState("");
-  //   const [showMessage, setShowMessage] = useState(false);
 
-  //   const handleChange = (e) => {
-  //     const { name, value } = e.target;
-  //     setContact({ ...contact, [name]: value });
-  //   };
+  const [contact, setContact] = useState('')
+  const [sending, setSending] = useState(false)
+  const [messageSent, setMessageSent] = useState(false)
 
-  //   const handleSubmit = (e) => {
-  //     e.preventDefault();
+  const frmContact = {
+    name: '',
+    email: '',
+    message:''
+  
+  }
 
-  //     emailjs
-  //       .send(`service_lsilwkf`, `template_zefnjzw`, contact, `F-wmz4d9VI_6zEds5`)
-  //       .then(
-  //         (response) => {
-  //           console.log(`SUCCESS!`, response.status, response.text);
-  //           setContact(frmContact);
-  //           setShowMessage(true);
-  //         },
-  //         (err) => {
-  //           console.log(`FAILED...`, err);
-  //         }
-  //       );
-  //   };
+  const handleChange = e => {
+    const { name, value } = e.target
+    setContact({ ...contact, [name]: value })
+  }
+  const handleSubmit = e => {
+    e.preventDefault()
+    setSending(true)
+
+    emailjs
+      .send(`service_qot68vu`, `template_pql7qd2`, contact, `wZ33AS2JLXlVY5Yg1`)
+      .then(
+        response => {
+          console.log(`SUCCESS!`, response.status, response.text)
+          setContact(frmContact)
+          setSending(false)
+          setMessageSent(true)
+        },
+        err => {
+          console.log(`FAILED...`, err)
+        }
+      )
+  }
 
   const [width, setWidth] = useState(window.innerWidth);
 
@@ -57,7 +66,7 @@ const Contact = () => {
             <Column2>
               <FormContainer>
                 <Form
-                  // onSubmit={handleSubmit}
+                  onSubmit={handleSubmit}
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
@@ -68,17 +77,17 @@ const Contact = () => {
                     placeholder="Nombre completo"
                     type="text"
                     required
-                    // value={contact.userName}
-                    name="userName"
-                    // onChange={handleChange}
+                    value={contact.name}
+                    name="name"
+                    onChange={handleChange}
                   />
 
                   <Input
                     className="form-item"
                     placeholder="Email"
-                    // value={contact.userEmail}
-                    // onChange={handleChange}
-                    name="userEmail"
+                    value={contact.email}
+                    onChange={handleChange}
+                    name="email"
                     type="text"
                     required
                   />
@@ -86,8 +95,8 @@ const Contact = () => {
                   <Input
                     className="form-item"
                     placeholder="Mensaje"
-                    // value={contact.message}
-                    // onChange={handleChange}
+                    value={contact.message}
+                    onChange={handleChange}
                     name="message"
                     type="text"
                     required
@@ -110,7 +119,7 @@ const Contact = () => {
 
                 <FormContainer>
                   <Form
-                    // onSubmit={handleSubmit}
+                    onSubmit={handleSubmit}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
@@ -121,17 +130,17 @@ const Contact = () => {
                       placeholder="Nombre completo"
                       type="text"
                       required
-                      // value={contact.userName}
+                      value={contact.name}
                       name="userName"
-                      // onChange={handleChange}
+                      onChange={handleChange}
                     />
 
                     <Input
                       className="form-item"
                       placeholder="Email"
-                      // value={contact.userEmail}
-                      // onChange={handleChange}
-                      name="userEmail"
+                      value={contact.email}
+                      onChange={handleChange}
+                      name="email"
                       type="text"
                       required
                     />
@@ -139,8 +148,8 @@ const Contact = () => {
                     <Input
                       className="form-item"
                       placeholder="Mensaje"
-                      // value={contact.message}
-                      // onChange={handleChange}
+                      value={contact.message}
+                      onChange={handleChange}
                       name="message"
                       type="text"
                       required
